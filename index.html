@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beshak Assignment</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- closed widget -->
+    <div class="closed-widget" id="closed-widget">
+      <div class="closed-widget--progress">
+        <p class="closed-widget--progress-count">25%</p>
+        <span>complete</span>
+      </div>
+      <div class="question"></div>
+    </div>
+
+    <!-- open widget -->
+    <div class="open-widget-wrapper" id="open-widget-wrapper">
+      <div class="open-widget" id="open-widget">
+        <button class="close-button" id="close-button">&times;</button>
+        <h1 class="open-widget--title">You’re just steps away...</h1>
+        <p class="open-widget--subtitle">... to get the best recommendations for your term insurance </p>
+        <ul class="steps-list">
+          <li class="step-options"><p class="completed">Select an insurance type</p> <div class="mark-done">&#10003;</div></li>
+          <li class="step-options"><p class="current-step">Get detailed report</p><button class="current-step--button">Go</button></li>
+          <li class="step-options"><p>Compare insurance plans</p></li>
+          <li class="step-options"><p>Choose an advisor</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/widget.js"></script>
+</body>
+</html>
